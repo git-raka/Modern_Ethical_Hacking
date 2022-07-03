@@ -14,9 +14,12 @@ https://github.com/olafhartong/sysmon-modular
 
 download the zip file
 
+
 <img width="187" alt="image" src="https://user-images.githubusercontent.com/77326619/177029789-54177149-d6f2-403b-b454-b00a1d17a28c.png">
 
+
 extracct sysmon modular in sysmon dir
+
 ![image](https://user-images.githubusercontent.com/77326619/177029846-1af95fa0-1d2a-4697-8c75-8e087eecddc9.png)
 
 open cmd and go to sysmon program file
@@ -24,13 +27,17 @@ open cmd and go to sysmon program file
 ![image](https://user-images.githubusercontent.com/77326619/177029933-937fd065-5cc5-4142-8408-4094a896432d.png)
 
 now you need to disable excecution policy
+
 ![image](https://user-images.githubusercontent.com/77326619/177030033-ade34229-5276-40aa-9d08-dbaf71a4557d.png)
 
+
 ![image](https://user-images.githubusercontent.com/77326619/177030082-42acb6aa-4b6d-44a7-baff-4ea7bcdd0d33.png)
+
 
 ![image](https://user-images.githubusercontent.com/77326619/177030153-2cab58e1-86c8-4a99-a668-7e0353f5cf65.png)
 
 Merge-AllSysmonXml -Path ( Get-ChildItem '[0-9]*\*.xml') -AsString | Out-File sysmonconfig.xml
+
 ![image](https://user-images.githubusercontent.com/77326619/177030238-ccae2125-56f8-4239-a972-20d3b22fb465.png)
 
 Now you can see your all log on your computer
